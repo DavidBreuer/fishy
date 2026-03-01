@@ -1,0 +1,16 @@
+[project]
+name = "fishy"
+version = "0.1.0"
+description = "fishy"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dash>=4.0.0",
+    "pandas",
+    "gunicorn",
+	"psycopg2-binary",
+	"python-dotenv",
+	"gunicorn>=20",
+	"dash-bootstrap-components",
+	"whitenoise>5"
+]

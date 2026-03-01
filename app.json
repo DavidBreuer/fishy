@@ -1,0 +1,20 @@
+{
+    "name": "fishy",
+    "repository": "https://github.com/DavidBreuer/fishy",
+    "env": {
+        "SECRET_KEY": {
+            "description": "Secret key for Flask.",
+            "value": "you-will-never-guesss-david"
+        },
+        "FLASK_ENV": {
+            "description": "Environment for Flask",
+            "value": "production"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
