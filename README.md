@@ -13,6 +13,7 @@ The page should be installable via a manifest file and it should cache all data 
 import os
 import dotenv
 import pg8000
+import pandas as pd
 
 con = pg8000.connect(
     host=os.environ["host"],
