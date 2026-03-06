@@ -54,6 +54,8 @@ https://medium.com/@inderpreet_singh/the-step-by-step-process-for-converting-a-r
 https://github.com/danny-baker/dash-heroku/tree/main
 https://www.youtube.com/watch?v=aBWqWVBaqhI
 
+image: https://publicdomainvectors.org/de/kostenlose-vektorgrafiken/Silhouette-Fisch-Skelett-Vektor-Zeichnung/28681.html
+
 # AI prompt
 
 1. The folder contains a minimal Progressive Web Application using Python Plotly Dash.
