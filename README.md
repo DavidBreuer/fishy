@@ -4,6 +4,12 @@ Flask PWA is supposed to be a goto template when I start a new Flask project. It
 
 You can check a live version at [Heroku](https://flask-pwa.herokuapp.com).
 
+## Work
+
+The folder contains a simple Python Dash app.
+Please add Progressive Web App (PWA) functionality with a server worker using the Google Workbox library for PWAs.
+The page should be installable via a manifest file and it should cache all data reqired to run offline.
+
 ## Own commands
 
 https://cloud.digitalocean.com/apps/b037eafa-f6b2-4acc-afa6-62517ab3c4d5/settings
@@ -39,7 +45,7 @@ https://www.youtube.com/watch?v=aBWqWVBaqhI
 - city = varchar, required, non-null
 - street = varchar, required, non-null
 
-2.2. Create a table "products" with columns 
+2.2. Create a table "products" with columns
 - uid = auto-incrementing integer primary key
 - location_uid = foreign key to uid column in locations table, required, non-null
 - name = varchar, required, non-null
