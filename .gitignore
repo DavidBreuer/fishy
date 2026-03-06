@@ -4,6 +4,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# MacOS
+.DS_Store
+
 # C extensions
 *.so
 
@@ -70,9 +73,6 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
-# pyenv
-.python-version
 
 # celery beat schedule file
 celerybeat-schedule
